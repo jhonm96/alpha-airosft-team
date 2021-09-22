@@ -30,10 +30,19 @@
     margin: 0px;
     padding: 30px;
     background-color:rgb(85, 77, 55);
-}
-.contacto{
     display:flex;
-    justify-content:space-evenly ;
+    justify-content:center;
     color:rgb(255, 255, 255);
+}
+.sectionap-title{
+    display: flex;
+    justify-content:center;
+    font-family:'times';
+    font-style: italic;
+
+}
+.form1{
+    font-family: 'times';
+    padding: 10px;;
 }
 

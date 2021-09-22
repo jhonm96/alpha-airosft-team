@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<header>
+
+<body>
+    <header>
     <nav class="nav">
         <ul class="menu">
             <a href="logo">
@@ -27,10 +29,10 @@
             </a>
         </ul>
     </nav>
-</header>
-<body>
-    <nav>
-        <h1>APLICAR</h1>
+    </header>
+    <section class="sectionap">
+    <div>
+        <h1 class="sectionap-title">APLICAR</h1>
         <br>
         <br>
         <h2>Bienvenido a la seccion de Aplicaciones  </h2>
@@ -39,15 +41,18 @@
         <br>
         <h3> diligencie el siguiente formulario para postularte al equipo</h3><br>
 
-
+        </div>
+        <div>
         <form class='form1' action="" target="">
 
             <h4>Informacion Personal</h4>
             <br>
             <p>
-            ingrese su Nombre completo <input type="text" name="nombre">
+            <label>ingrese su Nombre completo
+                 <input type="text" name="nombre">
     
-            Ingrese Apellidos <input type="text" name="apellidos"> </p>
+            <label>Ingrese Apellidos
+                 <input type="text" name="apellidos"> </p>
             <br>
             
                 <label for=" ">Seleccione el tipo de documento:</label>
@@ -59,30 +64,35 @@
                 </select>
             <br>    
             <br>
-            No. Identificacion <input type="text" name="ID">
+            <label>No. Identificacion</label>
+             <input type="text" name="ID">
     
-            Expedido en <input type="text" name="Expedicion"> 
+             <label>Expedido en</label>
+              <input type="text" name="Expedicion"> 
 
             <br>
             <br>
 
-            Edad <input type="text" name="edad">
+            <label>Edad</label>
+             <input type="text" name="edad">
 
             <br>
             <br>
 
-            No. Telefono <input type="text" name="telefono">
+            <label>No. Telefono</label>
+             <input type="text" name="telefono">
 
-            No. Celular <input type="text" name="celular">
+            <label>No. Celular</label>
+             <input type="text" name="celular">
 
             <br>
             <br>
     
-            Lugar de residencia <input type="text" name="lugar"> 
+            <label>Lugar de residencia</label> <input type="text" name="lugar"> 
 
-            Direccion de residencia <input type="text" name="direccion"> 
+            <label>Direccion de residencia</label> <input type="text" name="direccion"> 
 
-            Barrio de residencia <input type="text" name="barrio"> 
+            <label>Barrio de residencia</label> <input type="text" name="barrio"> 
             </p>
 
             <br>
@@ -90,41 +100,42 @@
             
             <h3>Informacion Medica</h3><br>
             <p>
-                Sufre de alguna lesion? 
+                <label>Sufre de alguna lesion?</label> 
                 <input type='radio' name ='lesiones' value='si'> Si
                 <input type='radio' name ='lesiones' value='no'> No
-                Cual/es? <textarea name="lesiones"></textarea>
+                <label>Cual/es?</label> <textarea name="lesiones"></textarea>
             </p>
             <p>
-                Sufre de alguna enfermedad de Base? 
+                <label>Sufre de alguna enfermedad de Base?</label> 
                 <input type='radio' name ='enfermedad' value='si'> Si
                 <input type='radio' name ='enfermedad' value='no'> No
-                Cual/es? <textarea name="enfermedad"></textarea>
+                <label>Cual/es?</label> <textarea name="enfermedad"></textarea>
             </p>
             <p>
-                Ha sufrido alguna fractura? 
+                <label>Ha sufrido alguna fractura?</label> 
                 <input type='radio' name ='fracturas' value='si'> Si
                 <input type='radio' name ='fracturas' value='no'> No
-                Cual/es? <textarea name="fracturas"></textarea>
+                <label>Cual/es?</label> <textarea name="fracturas"></textarea>
             </p>
             <p>
-                Se ha sometido a procedimientos Quirurgicos? 
+                <label>Se ha sometido a procedimientos Quirurgicos?</label> 
                 <input type='radio' name ='cirugia' value='si'> Si
                 <input type='radio' name ='cirugia' value='no'> No
-                Cual/es? <textarea name="cirugia"></textarea>
+                <label>Cual/es?</label> <textarea name="cirugia"></textarea>
             </p>
 
         </form>
-    </nav>
-    
+    </div>
+    </section>
+    <br>
+    <footer>
+        <div class="footer">
+        
+            <label for="">Contacta con nosotros  </label> 
+            <label for="">alphaunit@gmail.com </label>
+        
+    </div>
+    </footer>
 </body>
-<br>
-<footer>
-    <nav class="footer">
-        <p class='contacto'>
-            <label for="">Contacta con nosotros</label> 
-            <label for="">alphaunit@gmail.com</label>
-        </p>
-    </nav>
-</footer> 
+
 </html>
