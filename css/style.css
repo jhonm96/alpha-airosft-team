@@ -6,9 +6,10 @@
 
 .nav{
     padding: 20px;
-    background-color:rgb(106, 128, 109);
+    background-color:rgb(74, 100, 77);
     
 }
+
 .menu{
     display: flex;
     list-style: none;
@@ -21,7 +22,10 @@
 }
 .item a{
     text-decoration:none;
-    color: #fff;
-    
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family:'Times';
 }
+
+
 
