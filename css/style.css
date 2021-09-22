@@ -182,3 +182,12 @@ aside .banner .banner_width h4{
    border: 1px solid #850a0a;
    padding: 0px;
 }
+.operadores{
+    font-family: 'times';
+    text-align: center;
+}
+.nombre_operador{
+    display:flex;
+    text-align: center;
+
+}
