@@ -30,7 +30,7 @@
 </header>
     
 <body>
-    <nav>
+    <nav class="body">
         <h1>REGISTRO</h1>
         <br><h2>Bienvenido a la seccion de registro </h2>
         <br>
@@ -49,10 +49,13 @@
         Ingrese Apellidos <input type="text" name="apellidos"> </p>
         <br>
         <p>
-        Seleccione el tipo de documento:<br>
-        <input type='radio' name ='ID' value ='tarjeta ID'> Targeta de Identidad <br>
-        <input type='radio' name ='ID' value ='cedula'> Cedula de Ciudadania<br>
-        <input type='radio' name ='ID' value='pasaporte'> Pasaporte
+        Seleccione el tipo de documento:
+        <select name="documento">
+            <option> Tarjeta de indentidad</option>
+            <option> Cedula</option>
+            <option> Pasaporte</option>
+        
+        </select>
         </p>
         <br>
         No. Identificacion <input type="text" name="ID">
@@ -72,6 +75,16 @@
             Ingrese una Contraseña <password> <input type="password" name="contraseña"></password> </p>
         </p>
     </nav>
-    
+
+  
 </body>
+<br>
+<footer>
+    <nav class="footer">
+        <p class='contacto'>
+            <label for="">Contacta con nosotros</label> 
+            <label for="">alphaunit@gmail.com</label>
+        </p>
+    </nav>
+</footer>  
 </html>

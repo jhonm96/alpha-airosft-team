@@ -26,6 +26,14 @@
     font-style: italic;
     font-family:'Times';
 }
-
-
+.footer{
+    margin: 0px;
+    padding: 30px;
+    background-color:rgb(85, 77, 55);
+}
+.contacto{
+    display:flex;
+    justify-content:space-evenly ;
+    color:rgb(255, 255, 255);
+}
 
