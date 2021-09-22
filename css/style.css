@@ -48,7 +48,7 @@ body{
 
 
 /* estilos para la seccion principal */
-.section{
+.sectionindex{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -176,9 +176,9 @@ aside .banner .banner_width h4{
 .widget{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 0px;
 }
 .widget .card{
-   border: 1px solid #000000;
-   padding: 20px;
+   border: 1px solid #850a0a;
+   padding: 0px;
 }
