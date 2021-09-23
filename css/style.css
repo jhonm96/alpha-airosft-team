@@ -40,15 +40,15 @@ body{
     justify-content:center;
     color:rgb(255, 255, 255);
 }
-.sectionap-title{
+.section-title{
     display: flex;
     justify-content:center;
     font-family:'times';
-    font-style: italic;
+    font-style: italic;}
 
 
 /* estilos para la seccion principal */
-.sectionindex{
+.section{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
